@@ -1,0 +1,28 @@
+.roboto-serif {
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
+}
+
+:root{
+  --bg-color : #292d33;
+  --gray-color : #555c66  ;
+
+}
+
+.bg-split {
+  background: linear-gradient(to bottom, white 0%, white 50%,  var(--bg-color) 50%,  var(--bg-color) 100%);
+}
+.bg-splitt {
+  background: linear-gradient(to bottom, var(--bg-color) 0%, var(--bg-color) 50%,  white 50%,  white 100%);
+}
+.bg-splittt {
+  background: linear-gradient(to bottom, 
+  var(--bg-color) 0% 35%,  
+  var(--gray-color) 35% 65% , 
+  var(--bg-color) 65% 100%);
+}
